@@ -1,6 +1,8 @@
 # 🏏 IPL Data Analysis (2008–2024)
 
-## Overviewss
+End-to-end IPL Data Analysis using Python, SQL, and Tableau.
+
+## Overviews
 
 This project is my attempt to analyze IPL match data using Python. I worked on this project to practice data analysis on a real-world dataset and improve my understanding of Pandas, data manipulation, and extracting insights from data.
 
@@ -22,11 +24,14 @@ The project uses two datasets:
 - Python
 - Pandas
 - NumPy
+- MySQL
 - Jupyter Notebook
 
 ---
 
 ## Analysis Included
+
+### Python Analysis
 
 - Most Successful Teams
 - Toss Analysis
@@ -40,6 +45,20 @@ The project uses two datasets:
 - Lowest Successfully Defended Total
 - Best Chasing Team
 - Best Defending Team
+
+### SQL Analysis
+
+- Highest Run Scorer
+- Top Six Hitters
+- Top Wicket Takers
+- Best Economy Bowlers
+- Orange Cap by Season
+- Most Improved Batter
+- Death Over Specialists
+- Best Finishers
+- Best Powerplay Bowlers
+- Purple Cap by Season
+- Best All-Rounders
 
 ---
 
@@ -56,7 +75,10 @@ IPL_Data_Analysis/
 │   └── IPL_Data_Analysis.ipynb
 │
 ├── sql/
+│   └── IPL_SQL_Business_Case_Studies.sql
+│
 ├── visuals/
+│
 └── README.md
 ```
 
@@ -76,17 +98,15 @@ Some interesting insights from the analysis include:
 
 ## Future Improvements
 
-I plan to improve this project by:
+- I plan to improve this project by:
 
-- Adding data visualizations using Matplotlib and Seaborn
-- Creating an interactive Power BI dashboard
-- Writing SQL queries for similar analysis
-- Exploring predictive analysis using Machine Learning
-
+- Add interactive Tableau dashboards
+- Include more advanced SQL business case studies
+- Build predictive models using Machine Learning
 ---
 
 ## Author
 
 **Aayash Prajapati**
 
-Learning Data Science by building real-world projects.
+Building real-world Data Analytics and Data Science projects using Python, SQL, and Tableau.
