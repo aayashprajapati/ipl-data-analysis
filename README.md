@@ -1,70 +1,83 @@
 # 🏏 IPL Data Analysis (2008–2024)
 
-End-to-end IPL Data Analysis using Python, SQL, and Tableau.
+This project is based on IPL data from 2008 to 2024. I built this project to practice Python, SQL, and Tableau by working on a real-world dataset.
 
-## Overviews
-
-This project is my attempt to analyze IPL match data using Python. I worked on this project to practice data analysis on a real-world dataset and improve my understanding of Pandas, data manipulation, and extracting insights from data.
-
-The dataset contains IPL matches from **2008 to 2024**, and the analysis focuses on team performance, player statistics, venue trends, and match outcomes.
+The project focuses on analyzing team performance, player performance, season trends, and match insights using data analysis and visualization.
 
 ---
 
-## Dataset
+# Dashboard Preview
+
+![IPL Dashboard](ipl_data_analysis_dashboard.png)
+
+---
+
+# Dataset
 
 The project uses two datasets:
 
-- `matches.csv`
-- `deliveries.csv`
+- matches.csv
+- deliveries.csv
 
 ---
 
-## Tools Used
+# Tools Used
 
 - Python
 - Pandas
 - NumPy
 - MySQL
+- Tableau
 - Jupyter Notebook
 
 ---
 
-## Analysis Included
+# Project Highlights
 
 ### Python Analysis
 
-- Most Successful Teams
+- Team Performance Analysis
 - Toss Analysis
-- Player of the Match Awards
+- Player of the Match Analysis
 - Venue Analysis
-- Chasing vs Defending
-- Toss Conversion Rate
+- Chasing vs Defending Analysis
 - Top Run Scorers
 - Top Wicket Takers
-- Highest Successful Run Chase
+- Highest Successful Chase
 - Lowest Successfully Defended Total
-- Best Chasing Team
-- Best Defending Team
 
 ### SQL Analysis
 
 - Highest Run Scorer
 - Top Six Hitters
 - Top Wicket Takers
-- Best Economy Bowlers
 - Orange Cap by Season
-- Most Improved Batter
-- Death Over Specialists
-- Best Finishers
-- Best Powerplay Bowlers
 - Purple Cap by Season
-- Best All-Rounders
+- Best Economy Bowlers
+- Best Finishers
+- Death Over Specialists
+- Best Powerplay Bowlers
+
+### Tableau Dashboard
+
+The dashboard includes:
+
+- Total Matches
+- Total Seasons
+- Total Teams
+- Total Players
+- Matches by Season
+- Toss Decision Analysis
+- Top Teams by Wins
+- Top Run Scorers
+- Top Wicket Takers
+- Player of the Match Awards
 
 ---
 
-## Project Structure
+# Project Structure
 
-```
+```text
 IPL_Data_Analysis/
 │
 ├── data/
@@ -77,36 +90,35 @@ IPL_Data_Analysis/
 ├── sql/
 │   └── IPL_SQL_Business_Case_Studies.sql
 │
-├── visuals/
-│
+├── IPL_Data_Analysis_Dashboard.twb
+├── ipl_data_analysis_dashboard.png
 └── README.md
 ```
 
 ---
 
-## Key Observations
+# Key Insights
 
-Some interesting insights from the analysis include:
-
-- Certain teams have consistently performed better across multiple seasons.
-- Toss decisions influenced match results in specific situations.
-- Batting-friendly venues generally produced higher scoring matches.
-- A few teams were noticeably stronger while chasing than defending.
-- Individual player performances often had a significant impact on match outcomes.
+- Mumbai Indians and Chennai Super Kings are among the most successful IPL teams.
+- Winning the toss does not always lead to winning the match.
+- Some venues produce consistently high-scoring matches.
+- A few teams perform better while chasing than defending.
+- Player performance has a major impact on match results.
 
 ---
 
-## Future Improvements
+# Future Improvements
 
-- I plan to improve this project by:
+- Add interactive dashboard filters.
+- Compare player and team performance.
+- Build a Machine Learning model to predict match outcomes.
 
-- Add interactive Tableau dashboards
-- Include more advanced SQL business case studies
-- Build predictive models using Machine Learning
 ---
 
-## Author
+# Author
 
 **Aayash Prajapati**
 
-Building real-world Data Analytics and Data Science projects using Python, SQL, and Tableau.
+Aspiring Data Analyst | Learning Data Science
+
+This project helped me improve my skills in Python, SQL, Tableau, and data visualization by working on a real IPL dataset.
